@@ -2,7 +2,7 @@
 //  SESWindowsUITests.swift
 //  SESWindowsUITests
 //
-//  Created by Luis F. Perrone on 4/28/18.
+//  Created by Luis F. Perrone and Marcial Cabrera on 4/28/18.
 //  Copyright © 2018 ThemFireLabs. All rights reserved.
 //
 

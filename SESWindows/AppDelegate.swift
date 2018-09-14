@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SESWindows
 //
-//  Created by Luis F. Perrone on 4/28/18.
+//  Created by Marcial Cabrera on 4/28/18.
 //  Copyright © 2018 ThemFireLabs. All rights reserved.
 //
 
