@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D6C26602094E28400898C02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6C265F2094E28400898C02 /* AppDelegate.swift */; };
+		9D6C26622094E28400898C02 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6C26612094E28400898C02 /* HomeViewController.swift */; };
+		9D6C26652094E28400898C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6C26632094E28400898C02 /* Main.storyboard */; };
+		9D6C26672094E28400898C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6C26662094E28400898C02 /* Assets.xcassets */; };
+		9D6C266A2094E28400898C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6C26682094E28400898C02 /* LaunchScreen.storyboard */; };
+		9D6C26752094E28400898C02 /* SESWindowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6C26742094E28400898C02 /* SESWindowsTests.swift */; };
+		9D6C26802094E28400898C02 /* SESWindowsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6C267F2094E28400898C02 /* SESWindowsUITests.swift */; };
+		9D6C27E4209632BF00898C02 /* SJFluidSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6C27E3209632BF00898C02 /* SJFluidSegmentedControl.swift */; };
+		9D6C27E6209632D600898C02 /* SJGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6C27E5209632D600898C02 /* SJGradientView.swift */; };
+		9D6C27E8209632E900898C02 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6C27E7209632E900898C02 /* UIView+Constraints.swift */; };
+		9D6C27EC2096362800898C02 /* ScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6C27EB2096362800898C02 /* ScreensView.swift */; };
+		9D6C27EE2096363800898C02 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6C27ED2096363800898C02 /* HomeView.xib */; };
+		9D6C27F02096366000898C02 /* ServicesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6C27EF2096366000898C02 /* ServicesView.xib */; };
+		9D6C27F22096367800898C02 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6C27F12096367800898C02 /* AboutView.xib */; };
+		9D6C27F42096368700898C02 /* ContactView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6C27F32096368700898C02 /* ContactView.xib */; };
+		9D6C27F620977AE900898C02 /* DemoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6C27F520977AE900898C02 /* DemoView.xib */; };
+		9DBB685020D8053400D2B3A3 /* HomeScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBB684F20D8053400D2B3A3 /* HomeScreensView.swift */; };
+		9DBB685220D8055800D2B3A3 /* FirstHomeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DBB685120D8055800D2B3A3 /* FirstHomeScreen.xib */; };
+		9DBB685420D8056500D2B3A3 /* SecondHomeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DBB685320D8056500D2B3A3 /* SecondHomeScreen.xib */; };
+		9DBB685620D8058300D2B3A3 /* ThirdHomeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DBB685520D8058300D2B3A3 /* ThirdHomeScreen.xib */; };
+		9DBB685820D805B000D2B3A3 /* FourthHomeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DBB685720D805B000D2B3A3 /* FourthHomeScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D6C26712094E28400898C02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D6C26542094E28400898C02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D6C265B2094E28400898C02;
+			remoteInfo = SESWindows;
+		};
+		9D6C267C2094E28400898C02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D6C26542094E28400898C02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D6C265B2094E28400898C02;
+			remoteInfo = SESWindows;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D6C265C2094E28400898C02 /* SESWindows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SESWindows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6C265F2094E28400898C02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D6C26612094E28400898C02 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9D6C26642094E28400898C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D6C26662094E28400898C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D6C26692094E28400898C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D6C266B2094E28400898C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D6C26702094E28400898C02 /* SESWindowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SESWindowsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6C26742094E28400898C02 /* SESWindowsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SESWindowsTests.swift; sourceTree = "<group>"; };
+		9D6C26762094E28400898C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D6C267B2094E28400898C02 /* SESWindowsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SESWindowsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6C267F2094E28400898C02 /* SESWindowsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SESWindowsUITests.swift; sourceTree = "<group>"; };
+		9D6C26812094E28400898C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D6C27E3209632BF00898C02 /* SJFluidSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJFluidSegmentedControl.swift; sourceTree = "<group>"; };
+		9D6C27E5209632D600898C02 /* SJGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJGradientView.swift; sourceTree = "<group>"; };
+		9D6C27E7209632E900898C02 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		9D6C27EB2096362800898C02 /* ScreensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreensView.swift; sourceTree = "<group>"; };
+		9D6C27ED2096363800898C02 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		9D6C27EF2096366000898C02 /* ServicesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServicesView.xib; sourceTree = "<group>"; };
+		9D6C27F12096367800898C02 /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		9D6C27F32096368700898C02 /* ContactView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactView.xib; sourceTree = "<group>"; };
+		9D6C27F520977AE900898C02 /* DemoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoView.xib; sourceTree = "<group>"; };
+		9DBB684F20D8053400D2B3A3 /* HomeScreensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreensView.swift; sourceTree = "<group>"; };
+		9DBB685120D8055800D2B3A3 /* FirstHomeScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstHomeScreen.xib; sourceTree = "<group>"; };
+		9DBB685320D8056500D2B3A3 /* SecondHomeScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondHomeScreen.xib; sourceTree = "<group>"; };
+		9DBB685520D8058300D2B3A3 /* ThirdHomeScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdHomeScreen.xib; sourceTree = "<group>"; };
+		9DBB685720D805B000D2B3A3 /* FourthHomeScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthHomeScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D6C26592094E28400898C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6C266D2094E28400898C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6C26782094E28400898C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D6C26532094E28400898C02 = {
+			isa = PBXGroup;
+			children = (
+				9D6C265E2094E28400898C02 /* SESWindows */,
+				9D6C26732094E28400898C02 /* SESWindowsTests */,
+				9D6C267E2094E28400898C02 /* SESWindowsUITests */,
+				9D6C265D2094E28400898C02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D6C265D2094E28400898C02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D6C265C2094E28400898C02 /* SESWindows.app */,
+				9D6C26702094E28400898C02 /* SESWindowsTests.xctest */,
+				9D6C267B2094E28400898C02 /* SESWindowsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D6C265E2094E28400898C02 /* SESWindows */ = {
+			isa = PBXGroup;
+			children = (
+				9D6C27EA209635D500898C02 /* Screens */,
+				9D6C27E22096329000898C02 /* FluidSegmentedControl */,
+				9D6C265F2094E28400898C02 /* AppDelegate.swift */,
+				9D6C26612094E28400898C02 /* HomeViewController.swift */,
+				9D6C26632094E28400898C02 /* Main.storyboard */,
+				9D6C26662094E28400898C02 /* Assets.xcassets */,
+				9D6C26682094E28400898C02 /* LaunchScreen.storyboard */,
+				9D6C266B2094E28400898C02 /* Info.plist */,
+			);
+			path = SESWindows;
+			sourceTree = "<group>";
+		};
+		9D6C26732094E28400898C02 /* SESWindowsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D6C26742094E28400898C02 /* SESWindowsTests.swift */,
+				9D6C26762094E28400898C02 /* Info.plist */,
+			);
+			path = SESWindowsTests;
+			sourceTree = "<group>";
+		};
+		9D6C267E2094E28400898C02 /* SESWindowsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D6C267F2094E28400898C02 /* SESWindowsUITests.swift */,
+				9D6C26812094E28400898C02 /* Info.plist */,
+			);
+			path = SESWindowsUITests;
+			sourceTree = "<group>";
+		};
+		9D6C27E22096329000898C02 /* FluidSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				9D6C27E3209632BF00898C02 /* SJFluidSegmentedControl.swift */,
+				9D6C27E5209632D600898C02 /* SJGradientView.swift */,
+				9D6C27E7209632E900898C02 /* UIView+Constraints.swift */,
+			);
+			path = FluidSegmentedControl;
+			sourceTree = "<group>";
+		};
+		9D6C27EA209635D500898C02 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9DBB684E20D804D000D2B3A3 /* Home screens */,
+				9D6C27EB2096362800898C02 /* ScreensView.swift */,
+				9D6C27ED2096363800898C02 /* HomeView.xib */,
+				9D6C27EF2096366000898C02 /* ServicesView.xib */,
+				9D6C27F12096367800898C02 /* AboutView.xib */,
+				9D6C27F32096368700898C02 /* ContactView.xib */,
+				9D6C27F520977AE900898C02 /* DemoView.xib */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9DBB684E20D804D000D2B3A3 /* Home screens */ = {
+			isa = PBXGroup;
+			children = (
+				9DBB684F20D8053400D2B3A3 /* HomeScreensView.swift */,
+				9DBB685120D8055800D2B3A3 /* FirstHomeScreen.xib */,
+				9DBB685320D8056500D2B3A3 /* SecondHomeScreen.xib */,
+				9DBB685520D8058300D2B3A3 /* ThirdHomeScreen.xib */,
+				9DBB685720D805B000D2B3A3 /* FourthHomeScreen.xib */,
+			);
+			path = "Home screens";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D6C265B2094E28400898C02 /* SESWindows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D6C26842094E28400898C02 /* Build configuration list for PBXNativeTarget "SESWindows" */;
+			buildPhases = (
+				9D6C26582094E28400898C02 /* Sources */,
+				9D6C26592094E28400898C02 /* Frameworks */,
+				9D6C265A2094E28400898C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SESWindows;
+			productName = SESWindows;
+			productReference = 9D6C265C2094E28400898C02 /* SESWindows.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D6C266F2094E28400898C02 /* SESWindowsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D6C26872094E28400898C02 /* Build configuration list for PBXNativeTarget "SESWindowsTests" */;
+			buildPhases = (
+				9D6C266C2094E28400898C02 /* Sources */,
+				9D6C266D2094E28400898C02 /* Frameworks */,
+				9D6C266E2094E28400898C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D6C26722094E28400898C02 /* PBXTargetDependency */,
+			);
+			name = SESWindowsTests;
+			productName = SESWindowsTests;
+			productReference = 9D6C26702094E28400898C02 /* SESWindowsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D6C267A2094E28400898C02 /* SESWindowsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D6C268A2094E28400898C02 /* Build configuration list for PBXNativeTarget "SESWindowsUITests" */;
+			buildPhases = (
+				9D6C26772094E28400898C02 /* Sources */,
+				9D6C26782094E28400898C02 /* Frameworks */,
+				9D6C26792094E28400898C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D6C267D2094E28400898C02 /* PBXTargetDependency */,
+			);
+			name = SESWindowsUITests;
+			productName = SESWindowsUITests;
+			productReference = 9D6C267B2094E28400898C02 /* SESWindowsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D6C26542094E28400898C02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ThemFireLabs;
+				TargetAttributes = {
+					9D6C265B2094E28400898C02 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9D6C266F2094E28400898C02 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D6C265B2094E28400898C02;
+					};
+					9D6C267A2094E28400898C02 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D6C265B2094E28400898C02;
+					};
+				};
+			};
+			buildConfigurationList = 9D6C26572094E28400898C02 /* Build configuration list for PBXProject "SESWindows" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D6C26532094E28400898C02;
+			productRefGroup = 9D6C265D2094E28400898C02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D6C265B2094E28400898C02 /* SESWindows */,
+				9D6C266F2094E28400898C02 /* SESWindowsTests */,
+				9D6C267A2094E28400898C02 /* SESWindowsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D6C265A2094E28400898C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBB685420D8056500D2B3A3 /* SecondHomeScreen.xib in Resources */,
+				9D6C266A2094E28400898C02 /* LaunchScreen.storyboard in Resources */,
+				9D6C27EE2096363800898C02 /* HomeView.xib in Resources */,
+				9D6C27F22096367800898C02 /* AboutView.xib in Resources */,
+				9D6C26672094E28400898C02 /* Assets.xcassets in Resources */,
+				9DBB685620D8058300D2B3A3 /* ThirdHomeScreen.xib in Resources */,
+				9DBB685220D8055800D2B3A3 /* FirstHomeScreen.xib in Resources */,
+				9D6C26652094E28400898C02 /* Main.storyboard in Resources */,
+				9D6C27F620977AE900898C02 /* DemoView.xib in Resources */,
+				9D6C27F42096368700898C02 /* ContactView.xib in Resources */,
+				9DBB685820D805B000D2B3A3 /* FourthHomeScreen.xib in Resources */,
+				9D6C27F02096366000898C02 /* ServicesView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6C266E2094E28400898C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6C26792094E28400898C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D6C26582094E28400898C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6C26622094E28400898C02 /* HomeViewController.swift in Sources */,
+				9DBB685020D8053400D2B3A3 /* HomeScreensView.swift in Sources */,
+				9D6C27E6209632D600898C02 /* SJGradientView.swift in Sources */,
+				9D6C27EC2096362800898C02 /* ScreensView.swift in Sources */,
+				9D6C27E8209632E900898C02 /* UIView+Constraints.swift in Sources */,
+				9D6C27E4209632BF00898C02 /* SJFluidSegmentedControl.swift in Sources */,
+				9D6C26602094E28400898C02 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6C266C2094E28400898C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6C26752094E28400898C02 /* SESWindowsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6C26772094E28400898C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6C26802094E28400898C02 /* SESWindowsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D6C26722094E28400898C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D6C265B2094E28400898C02 /* SESWindows */;
+			targetProxy = 9D6C26712094E28400898C02 /* PBXContainerItemProxy */;
+		};
+		9D6C267D2094E28400898C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D6C265B2094E28400898C02 /* SESWindows */;
+			targetProxy = 9D6C267C2094E28400898C02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D6C26632094E28400898C02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D6C26642094E28400898C02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D6C26682094E28400898C02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D6C26692094E28400898C02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D6C26822094E28400898C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D6C26832094E28400898C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D6C26852094E28400898C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GNTMNU45P5;
+				INFOPLIST_FILE = SESWindows/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = themfirelabs.SESWindows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D6C26862094E28400898C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GNTMNU45P5;
+				INFOPLIST_FILE = SESWindows/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = themfirelabs.SESWindows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D6C26882094E28400898C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GNTMNU45P5;
+				INFOPLIST_FILE = SESWindowsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = themfirelabs.SESWindowsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SESWindows.app/SESWindows";
+			};
+			name = Debug;
+		};
+		9D6C26892094E28400898C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GNTMNU45P5;
+				INFOPLIST_FILE = SESWindowsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = themfirelabs.SESWindowsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SESWindows.app/SESWindows";
+			};
+			name = Release;
+		};
+		9D6C268B2094E28400898C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GNTMNU45P5;
+				INFOPLIST_FILE = SESWindowsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = themfirelabs.SESWindowsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SESWindows;
+			};
+			name = Debug;
+		};
+		9D6C268C2094E28400898C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GNTMNU45P5;
+				INFOPLIST_FILE = SESWindowsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = themfirelabs.SESWindowsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SESWindows;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D6C26572094E28400898C02 /* Build configuration list for PBXProject "SESWindows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6C26822094E28400898C02 /* Debug */,
+				9D6C26832094E28400898C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D6C26842094E28400898C02 /* Build configuration list for PBXNativeTarget "SESWindows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6C26852094E28400898C02 /* Debug */,
+				9D6C26862094E28400898C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D6C26872094E28400898C02 /* Build configuration list for PBXNativeTarget "SESWindowsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6C26882094E28400898C02 /* Debug */,
+				9D6C26892094E28400898C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D6C268A2094E28400898C02 /* Build configuration list for PBXNativeTarget "SESWindowsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6C268B2094E28400898C02 /* Debug */,
+				9D6C268C2094E28400898C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D6C26542094E28400898C02 /* Project object */;
+}

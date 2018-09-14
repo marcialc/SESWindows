@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3gh-Bm-fw3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Data Source-->
+        <scene sceneID="U0x-7o-BSx">
+            <objects>
+                <viewController storyboardIdentifier="profileViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3gh-Bm-fw3" customClass="HomeViewController" customModule="SESWindows" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xJx-Ph-LMc"/>
+                        <viewControllerLayoutGuide type="bottom" id="IGb-Wr-mRo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TBd-oX-WZa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e51-Qc-Gk6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zAo-MZ-duJ">
+                                <rect key="frame" x="0.0" y="597" width="375" height="70"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="qFf-fG-y03"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j8D-3o-Xz9" customClass="SJFluidSegmentedControl" customModule="SESWindows" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="607" width="375" height="50"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Jjp-n0-ml8"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" red="0.53333333333333333" green="0.59215686274509804" blue="0.65490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedSegmentTextColor">
+                                        <color key="value" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="shadowsEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowShowDuration">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="gradientBounceColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="dataSource" destination="3gh-Bm-fw3" id="h9l-DS-kK3"/>
+                                    <outlet property="delegate" destination="3gh-Bm-fw3" id="6bR-Ze-aAT"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FQ2-VK-7gx" firstAttribute="bottom" secondItem="zAo-MZ-duJ" secondAttribute="bottom" id="KTq-uA-XND"/>
+                            <constraint firstAttribute="bottom" secondItem="j8D-3o-Xz9" secondAttribute="bottom" constant="10" id="R9x-sQ-SzL"/>
+                            <constraint firstAttribute="trailing" secondItem="j8D-3o-Xz9" secondAttribute="trailing" id="hj8-7P-Her"/>
+                            <constraint firstItem="j8D-3o-Xz9" firstAttribute="leading" secondItem="TBd-oX-WZa" secondAttribute="leading" id="iy6-fW-zVn"/>
+                            <constraint firstItem="zAo-MZ-duJ" firstAttribute="leading" secondItem="FQ2-VK-7gx" secondAttribute="leading" id="k2u-lz-yYR"/>
+                            <constraint firstItem="zAo-MZ-duJ" firstAttribute="trailing" secondItem="FQ2-VK-7gx" secondAttribute="trailing" id="lHs-eP-NOE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FQ2-VK-7gx"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uE5-cn-fZn"/>
+                    <connections>
+                        <outlet property="bottomConstraint" destination="R9x-sQ-SzL" id="JMN-Kc-MwU"/>
+                        <outlet property="segmentedControl" destination="j8D-3o-Xz9" id="q92-XX-NcX"/>
+                        <outlet property="segmentedControlBGView" destination="zAo-MZ-duJ" id="0HH-OS-9uI"/>
+                        <outlet property="skyScrollView" destination="e51-Qc-Gk6" id="F2X-ls-Hmf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Vq-IU-E9b" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="868" y="31.934032983508249"/>
+        </scene>
+    </scenes>
+</document>
